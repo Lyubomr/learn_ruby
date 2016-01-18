@@ -16,10 +16,13 @@ def start_of_word(word, number)
 end
 
 def first_word(string)
-  string.
-  string[0]
+  string.split.first
 end
 
 def titleize(string)
-  string.split.each { |cap| cap.capitalize! }.join(" ")
+  string.split
+  string.each do |cap|
+    cap
+  end
+
 end
