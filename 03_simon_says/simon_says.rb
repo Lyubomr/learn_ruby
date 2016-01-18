@@ -10,3 +10,7 @@ def repeat(string, number = 2)
   string.to_s
   [string] * number * " "
 end
+
+def start_of_word(word, number)
+  word.slice(number -1)
+end
