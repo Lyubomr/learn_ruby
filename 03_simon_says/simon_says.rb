@@ -12,5 +12,5 @@ def repeat(string, number = 2)
 end
 
 def start_of_word(word, number)
-  word.slice(number -1)
+  word.slice(0..(number - 1))
 end
