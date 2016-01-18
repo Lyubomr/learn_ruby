@@ -20,6 +20,6 @@ def first_word(string)
   string[0]
 end
 
-def titleize(word)
-  word.capitalize!
+def titleize(string)
+  string.split.each { |cap| cap.capitalize! }.join(" ")
 end
